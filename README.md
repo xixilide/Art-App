@@ -1,39 +1,10 @@
 # React-router路由实践
+### 项目
 
 ### 1. Router,hashHistory,Route
 
-首先下载react-router
-```
-$ npm install react-router --save
-```
-
-需要注意的是，react-router更新很快，API也在持续升级，也许你看到市面很多教程，但可能那还是1.x甚至是0.x版本的。
-
-#### (1).使用时，路由器Router就是React的一个组件。
 ```js
-import { Router } from 'react-router';
-render(<Router/>, document.getElementById('app'));
-```
-
-#### (2).Router组件本身只是一个容器，真正的路由要通过Route组件定义。
-
-```js
-import { Router, Route, hashHistory } from 'react-router';
-
-render((
-  <Router history={hashHistory}>
-    <Route path="/" component={App}/>
-  </Router>
-), document.getElementById('app'));
-```
-#### (3).Route组件定义了URL路径与组件的对应关系。
-
-你可以同时使用多个Route组件。
-
-```js
-<Router history={hashHistory}>
-  <Route path="/" component={App}/>
-  <Route path="/repos" component={Repos}/>
+import { Router, Route, hashHistory } from 'react-router'nent={Repos}/>
   <Route path="/about" component={About}/>
 </Router>
 ```
