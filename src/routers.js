@@ -1,18 +1,22 @@
 import React, { PropTypes } from 'react';
 import { Router, Route, hashHistory, Link , IndexRoute} from 'react-router';
-
+import Loading from './Loading/Loading'
+import App from './App'
+import Person from './Person/Person'
+import Recommend from './Recommend/Recommend'
+import Release from './Release/Release'
+import Spreadtrum from './Spreadtrum/Spreadtrum'
 class Routers extends React.Component {
   render () {
     return(
       <div>
       <Router history={hashHistory}>
-        <Route path="/" component={App} >
-          <IndexRoute component={Home} />
-          <Route path="about" component={About} />
-          <Route path="work" component={Work} />
-          <Route path="contact" component={Contact} />
-          <Route path="/item/:url" component={Item} />
-         <Route path="/item1/:url" component={ItemI} />
+        <Route path="/" component={Loading} />
+        <Route path="/login"  component={App} >
+          <IndexRoute   component={Spreadtrum} />
+          <Route path="/recommend" component={Recommend} />
+          <Route path="/release" component={Release} />
+          <Route path="/person" component={Person} />
        </Route>
      </Router>
    </div>
