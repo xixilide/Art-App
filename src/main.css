@@ -1,27 +1,23 @@
 *{margin: 0;padding: 0}
 .midnav{
   height: 30vh;
-  width: 600vw;
-}
-.midnav ul{
-  width: 600vw;
-  list-style: none;
-}
-.midnav ul li{
-  float: left;
 }
 .nav-footer{
   flex-shrink:0;
   height: 12vh;
+  width: 100vw;
+  height: 10vh;
   background-color: #000;
   display: flex;
+  position: fixed;
+  bottom: 0;
   justify-content: space-around;
   align-items: center;
   color:#fff
 }
 .nav-footer a{
   color:#424242;
-  font-size: 18px;
+  font-size: 1.4em;
   text-decoration: none;
   text-align: center;
   border-right: 1px solid rgba(0, 0, 0, 0.5);;
