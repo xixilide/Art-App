@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react'
 import {Link} from 'react-router';
 import $ from 'jquery';
-import img1 from '../images/login/微信.png';
-import img2 from '../images/login/微信.png';
+import img1 from '../images/login/weibo.png';
+import img2 from '../images/login/weixin.png';
 class Login extends React.Component {
   constructor(){
     super();
