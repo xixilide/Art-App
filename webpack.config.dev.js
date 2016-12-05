@@ -28,7 +28,7 @@ module.exports = {
       loader: 'style!css!autoprefixer'
     },
     {
-      test: /\.(jpe?g|png)$/,
+      test: /\.(jpe?g|png|gif)$/,
       loader: 'file-loader'
     },
     {

@@ -69,6 +69,7 @@
     "react-tap-event-plugin": "^2.0.1",
     "react-timer-mixin": "^0.13.3",
     "superagent": "^3.0.0",
-    "swiper": "^3.4.0"
+    "swiper": "^3.4.0",
+    "zepto.js": "^1.1.6"
   }
 }
