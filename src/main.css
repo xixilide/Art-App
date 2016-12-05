@@ -10,3 +10,29 @@
 .midnav ul li{
   float: left;
 }
+.nav-footer{
+  flex-shrink:0;
+  height: 12vh;
+  background-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.nav-footer a{
+  color:#424242;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);;
+  flex-grow: 1;
+}
+.nav-footer a:last-children{
+  border:none;
+}
+
+.person-wrap{
+  display: flex;
+  flex-direction: column;
+  height:88vh;
+}
