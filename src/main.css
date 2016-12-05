@@ -65,3 +65,29 @@
 .recdfirst3{
   background-image: url(./images/recommend/tuijian/3.jpg);
 }
+.recp{
+  width:20vw;
+  height:3vh;
+  border-radius:15px 0 0 15px;
+  background-color:#E53935;
+  line-hight:30px;
+  text-align:center;
+  float:right;
+  margin-top:2vh;
+  color:#fff;
+}
+.rect{
+  width:55vw;
+  height:10vh;
+  font-size:20px;
+  color:#fff;
+  padding-top:6vh;
+  padding-left:5vw;
+}
+.recd{
+  width:70vw;
+  height:10vh;
+  font-size:18px;
+  color:#fff;
+  padding-left:5vw;
+}

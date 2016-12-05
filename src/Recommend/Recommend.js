@@ -3,34 +3,7 @@ import Header from '../component/header'
 
 class Recommend extends React.Component {
   render () {
-    let  styles={
-      p:{
-       width:'20vw',
-       height:'3vh',
-       borderRadius:'15px 0 0 15px',
-       backgroundColor:'#E53935',
-       lineHight:'30px',
-       textAlign:'center',
-       float:'right',
-       marginTop:'2vh',
-       color:'#fff'
-     },
-     p2:{
-       width:'55vw',
-       height:'10vh',
-       fontSize:'20px',
-       color:'#fff',
-       paddingTop:'6vh',
-       paddingLeft:'5vw'
-     },
-     p3:{
-       width:'70vw',
-       height:'10vh',
-       fontSize:'18px',
-       color:'#fff',
-       paddingLeft:'5vw',
-     }
-   }
+  
   return(
     <div>
       <Header />
