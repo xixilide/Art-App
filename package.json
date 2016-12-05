@@ -67,6 +67,7 @@
     "react-native-swiper": "^1.5.4",
     "react-router": "^3.0.0",
     "react-tap-event-plugin": "^2.0.1",
+    "react-tappable": "^0.8.4",
     "react-timer-mixin": "^0.13.3",
     "superagent": "^3.0.0",
     "swiper": "^3.4.0",
