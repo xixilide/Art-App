@@ -6,6 +6,8 @@ import Person from './Person/Person';
 import Recommend from './Recommend/Recommend';
 import Release from './Release/Release';
 import Spreadtrum from './Spreadtrum/Spreadtrum';
+
+
 class Routers extends React.Component {
   render () {
     return(
@@ -17,7 +19,7 @@ class Routers extends React.Component {
           <Route path="/recommend" component={Recommend} />
           <Route path="/release" component={Release} />
           <Route path="/person" component={Person} />
-       </Route>
+        </Route>
      </Router>
    </div>
     )
