@@ -13,19 +13,27 @@ import Paper from 'material-ui/Paper'
 class Person extends React.Component {
   render () {
     const style = {
-            height: 130,
-            width: 130,
+            height: 100,
+            width: 100,
             margin: 20,
             textAlign: 'center',
             display: 'inline-block',
           };
     return(
       <div className="person-wrap">
-          <div className="person-top">
+          <div className="person-top clearfix">
+            <div className="person-top-icon">
+              <span className="glyphicon glyphicon-chevron-left"></span>
+              <span className="glyphicon glyphicon-cog"></span>
+            </div>
+            <div>
              <Paper style={style} zDepth={2} circle={true} >
               <img src={Img7} style={{width:'100%',height:'100%',borderRadius:'50%'}}></img>
               </Paper>
-            <p>阴雨天</p>
+            </div>
+            <div>
+              <p>阴雨天</p>
+            </div>
             <div className="person-watch">
               <p>关注</p>
               <p>发布</p>
@@ -33,10 +41,28 @@ class Person extends React.Component {
             </div>
           </div>
           <div className="person-center">
-            center
+            <div className="center-top">
+              <div className="art">
+                <p>艺象云集</p>
+              </div>
+              <div className="All">
+                <span>ALL</span>
+                <span className="glyphicon glyphicon-chevron-right"/>
+              </div>
+            </div>
+            <div className="center-img">
+              <div><img src={Img2}/></div>
+              <div><img src={Img3}/></div>
+              <div><img src={Img4}/></div>
+            </div>
+            <div className="center-buttom">
+              <p>订阅/11</p>
+              <p>订阅/9</p>
+              <p>订阅/49</p>
+            </div>
           </div>
           <div className="person-bottom">
-            bottom
+            footer
           </div>
       </div>
     )

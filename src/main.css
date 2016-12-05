@@ -25,3 +25,62 @@
   flex-direction: column;
   height:88vh;
 }
+.person-top{
+  background-image: url(./images/person/1.png);
+  display: flex;
+  flex-direction: column;
+  height:240px;
+  text-align: center;
+  width: 100%;
+  color:#fff;
+  background-size: cover;
+  border-bottom:4px solid #ccc
+}
+.person-top-icon{
+  display: flex;
+  justify-content: space-between;
+  padding:10px 10px 0px 10px;
+  font-size:20px;
+}
+.person-watch{
+  display: flex;
+  justify-content: space-around;
+}
+.person-center{
+  display: flex;
+  flex-direction: column;
+  height:140px;
+}
+.center-top{
+  display: flex;
+  justify-content: space-between;
+  height:34px;
+  justify-content: space-between;
+  line-height:20px;
+  padding:6px 0px 0px 6px;
+}
+.All{
+  width:70px;
+  height:24px;
+  background-color:#E53935;
+  line-height:24px;
+  color:#ccc;
+  padding-left:10px;
+  border-top-left-radius: 12px ;
+  border-bottom-left-radius: 12px;
+}
+.center-img{
+  display: flex;
+  height:56px;
+  flex-flow: 1;
+}
+.center-img img{
+  width: 100%;
+  padding:5px;
+}
+.center-buttom{
+  display: flex;
+  justify-content: space-around;
+  padding-top:14px;
+  color:#bbb
+}
