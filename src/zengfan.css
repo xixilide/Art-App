@@ -1,0 +1,36 @@
+.zengfan-cue{
+  width: 25%;
+  height: 8vw;
+  color:#fff;
+  background: #E53935;
+  border-top-right-radius: 4vw;
+  border-bottom-right-radius: 4vw;
+  text-align: center;
+  line-height: 8vw;
+}
+.zengfan-wrap{
+  flex-grow: 1;
+}
+.zengfan-wrap p{
+  flex-grow: 1;
+  padding:5px 10px;
+  color:#666;
+  font-size: 1.2vw;
+}
+.zengfan-wrap img{
+  width: 100%;
+}
+.zengfan-imgcue{
+  height: 260px;
+  flex-grow: 1;
+  position:relative;
+}
+.zengfan-imgcue img{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.zengfan-comment{
+  flex-grow: 1;
+}

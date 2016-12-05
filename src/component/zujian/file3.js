@@ -21,5 +21,5 @@ class File3 extends React.Component {
    )
   }
 }
-
+t
 export default File3;
