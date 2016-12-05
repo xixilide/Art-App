@@ -6,7 +6,8 @@ import Person from './Person/Person';
 import Recommend from './Recommend/Recommend';
 import Release from './Release/Release';
 import Spreadtrum from './Spreadtrum/Spreadtrum';
-
+import Login from './Login/login';
+import Zhuce from './Zhuce/Zhuce';
 
 class Routers extends React.Component {
   render () {
@@ -14,6 +15,8 @@ class Routers extends React.Component {
       <div>
       <Router history={hashHistory}>
         <Route path="/" component={Loading} />
+        <Route path="/denglu" component={Login}/>
+        <Route path="/zhuce" component={Zhuce} />
         <Route path="/login"  component={App} >
           <IndexRoute   component={Spreadtrum} />
           <Route path="/recommend" component={Recommend} />
