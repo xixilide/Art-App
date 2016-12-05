@@ -40,3 +40,15 @@ F：张斯曼
 6个人
 （1）个人首页
 （2）点头像和点设置的
+
+
+<div　className="midnav">
+  <ul onTouchMove={this.handleTouch.bind(this)}>
+    <li> <img　src= {Img1}/></li>
+    <li> <img　src= {Img2}/></li>
+    <li> <img　src= {Img3}/></li>
+    <li><img　src= {Img4}/></li>
+    <li> <img　src= {Img5}/></li>
+    <li> <img　src= {Img6}/></li>
+  </ul>
+</div>
