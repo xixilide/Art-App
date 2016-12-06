@@ -7,6 +7,7 @@ class Comment extends React.Component {
   render () {
     return(
       <div>
+        
         <div className='cf-comment'>
           <div className='cf-nowshow'>
             <div className='cf-nowshow-img'></div>

@@ -143,7 +143,10 @@
 /*footer*/
 .nav-footer{
   flex-shrink:0;
+<<<<<<< HEAD
   height: 14vh;
+=======
+>>>>>>> 6205b73ec349ed6deee3a89f2750b833e6e491b7
   width: 100vw;
   background-color: #000;
   display: flex;
@@ -151,13 +154,14 @@
   bottom: 0;
   justify-content: space-around;
   align-items: center;
-  color:#fff
+  color:#fff;
 }
 .nav-footer a{
   color:#424242;
   font-size: 1.4em;
   text-decoration: none;
   text-align: center;
+
   border-right: 1px solid rgba(0, 0, 0, 0.5);;
   flex-grow: 1;
 }
@@ -168,6 +172,7 @@
 
 
 /*spreadtrum_clickShow*/
+<<<<<<< HEAD
 
 .xioage-h3{
   width: 20vw;
@@ -211,6 +216,8 @@
 .xiaoge-p3{
   font-size: 10px;
 }
+=======
+>>>>>>> 6205b73ec349ed6deee3a89f2750b833e6e491b7
 
 
 .cf-nowshow{
