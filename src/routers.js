@@ -13,11 +13,6 @@ import Release from './Release/Release';
 import Spreadtrum from './Spreadtrum/Spreadtrum';
 import ClaDraw from './Spreadtrum/classify/huihua';
 import ClaMo from './Spreadtrum/classify/shuimo';
-<<<<<<< HEAD
-=======
-import Sheying from './Spreadtrum/classify/sheying';
->>>>>>> eda5dfdeab957f3263c01119cae785c313d11c60
-
 import Sheying from './Spreadtrum/classify/sheying';
 import Cjy from './Spreadtrum/show/cjy';
 import Xiaoge from './Spreadtrum/show/xiaoge';
