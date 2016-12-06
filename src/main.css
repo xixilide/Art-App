@@ -244,3 +244,8 @@
   height: 30vh;
   margin-bottom: 0.5vh;
 }
+.picbox{
+  height: 30vh;
+  width:100%;
+  z-index: 5;
+}

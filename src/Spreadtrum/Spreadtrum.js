@@ -13,12 +13,10 @@ class Spreadtrum extends React.Component {
    }
  }
  handleTab(i){
-   console.log(i);
     this.setState({
       show:i,
       chose:!this.state.chose
     })
-    console.log(this.state.chose);
   }
 
 
@@ -48,6 +46,7 @@ class Spreadtrum extends React.Component {
     return(
       <div>
         <Header />
+        <div className="recommendall">
         <Picshow />
         <Pichover />
         <div>
@@ -63,7 +62,7 @@ class Spreadtrum extends React.Component {
             {this.state.show==0 ?   <NowShow/> :<SoonShow />}
         </div>
 
-
+        </div>
       </div>
     )
 

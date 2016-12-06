@@ -4,7 +4,7 @@ import Img2 from '../images/home/first/top/2.jpg'
 import Img3 from '../images/home/first/top/3.jpg'
 class Picshow extends React.Component {
   componentDidMount(){
-    var mySwiper = new Swiper ('.swiper-container', {
+    var mySwiper = new Swiper ('.swiper-container1', {
       initialSlide :1,
       autoplay: 5000,
       pagination: '.swiper-pagination'
@@ -24,12 +24,12 @@ class Picshow extends React.Component {
       img:{
         display:'block',
         width:'100vw',
-        height:'30vh'
+        height:'auto'
       }
     }
   return(
-    <div>
-      <div className="swiper-container">
+    <div className="picbox">
+      <div className="swiper-container1">
         <div className="swiper-wrapper" onTouchEnd={this.handleTouch.bind(this)}>
             <div className="swiper-slide slide1"><img　src= {Img1} style={styles.img}/></div>
             <div className="swiper-slide slide2"><img　src= {Img2} style={styles.img}/></div>
