@@ -10,6 +10,7 @@ import Img5 from '../images/home/first/midnav/5.jpg'
 import Img6 from '../images/home/first/midnav/6.jpg'
 
 class Pichover extends React.Component {
+
 componentDidMount(){
   var mySwiper = new Swiper('.swiper-container',{
      slidesPerView : 2.5,
@@ -32,7 +33,7 @@ componentDidMount(){
             <div className="swiper-slide lide" ><Link to="/huihua"><img　src= {Img1} style={styles.img}/></Link></div>
             <div className="swiper-slide lide" ><Link to="/design"><img　src= {Img3} style={styles.img}/></Link></div>
             <div className="swiper-slide lide" ><Link to="/sheying"><img　src= {Img4} style={styles.img}/></Link></div>
-            <div className="swiper-slide lide" ><Link to=""><img　src= {Img5} style={styles.img}/></Link></div>
+            <div className="swiper-slide lide" ><Link to="/diaosu"><img　src= {Img5} style={styles.img}/></Link></div>
             <div className="swiper-slide lide" ><Link to="/zhuangzhi"><img　src= {Img6} style={styles.img}/></Link></div>
         </div>
     </div>
