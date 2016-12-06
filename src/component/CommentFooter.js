@@ -53,7 +53,6 @@ class CommentFooter extends React.Component {
 
     return(
       <div className='cf-wrap'>
-        <div className='zengfan-cue'>展览评论</div>
         <div className='cf-comment'>
           <div className='cf-nowshow'>
             <div className='cf-nowshow-img'></div>

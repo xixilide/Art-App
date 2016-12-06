@@ -7,6 +7,7 @@ import Img5 from '../images/recommend/zengfan/5.jpg';
 import Img6 from '../images/recommend/zengfan/6.jpg';
 import Img7 from '../images/littlepic/338.png'
 
+
 import CommentFooter from '../component/CommentFooter';
 class Zengfan extends React.Component {
   render () {
@@ -15,16 +16,17 @@ class Zengfan extends React.Component {
     };
   return(
     <div className='zengfan-wrap'>
-      <img src={Img7} style={{position:'absolute',top:'10px',left:'10px',width:'10vw',height:'10vw'}}  />
+      <img src={Img7} style={{position:'absolute',top:'10px',left:'10px',width:'10vw',height:'10vw'}}
+        onClick={this.context.router.goBack.bind(this)}/>
       <span style={{position:'absolute',top:'10px',left:'14px',color:'#fff',fontSize:'5vw',marginTop:'7vh'}}>散步——曾梵志个展</span>
       <span style={{position:'absolute',top:'10px',left:'14px',color:'#ccc',fontSize:'1vw',marginTop:'18vh'}}>展览时间：2016.9.19-11.19</span>
       <span style={{position:'absolute',top:'10px',left:'14px',color:'#ccc',fontSize:'1vw',marginTop:'20vh'}}>展览地点：尤伦斯艺术中心</span>
-      <div className='zengfan-top'>
-        <div className='zengfan-top-bot'>
+
+
         <img src={Img1} />
 
-        </div>
-      </div>
+
+
       <div className='zengfan-cue'>展览内容</div>
       <p>9月19日，中国当代艺术家曾梵志迄今位置规模最大、涵盖最广泛的展览《散步》将在尤伦斯当代艺术中心举行。<br />北京。9月19日，
         中国当代艺术家曾梵志迄今位置规模最大、涵盖最广泛的展览《散步》将在尤伦斯当代艺术中心举行。本次展览由UCCA馆长田霏雨和郭系联
@@ -49,5 +51,7 @@ class Zengfan extends React.Component {
   )
   }
 }
-
+Zengfan.contextTypes = {
+  router:React.PropTypes.object
+}
 export default Zengfan;
