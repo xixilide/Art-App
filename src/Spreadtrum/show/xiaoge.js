@@ -4,6 +4,7 @@ import Img2 from '../../images/home/xiaoge/2.gif'
 import Img3 from '../../images/home/xiaoge/3.gif'
 import Img4 from '../../images/home/xiaoge/4.gif'
 import Img5 from '../../images/home/xiaoge/5.gif'
+
 class Xiaoge extends React.Component {
   handleBack(){
   this.context.router.goBack();
@@ -68,11 +69,6 @@ class Xiaoge extends React.Component {
          <div>
            <img className='xiaoge-img' src={Img5} style={{width:'100vw'}}/>
          </div>
-         <div>
-           <h3 className='xiaoge-h3'>展览评论</h3>
-         </div>
-
-
       </div>
     )
 

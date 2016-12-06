@@ -4,6 +4,10 @@ import Loading from './Loading/loading';
 import App from './App';
 import Person from './Person/Person';
 import Recommend from './Recommend/Recommend';
+import Shanze from './Recommend/Shanze';
+import Zengfan from './Recommend/Zengfan';
+import Baxi from './Recommend/Baxi';
+
 import Release from './Release/Release';
 import Spreadtrum from './Spreadtrum/Spreadtrum';
 
@@ -26,6 +30,9 @@ class Routers extends React.Component {
           <Route path="/cjy" component={Cjy} />
           <Route path="/xiaoge" component={Xiaoge} />
           <Route path="/recommend" component={Recommend} />
+          <Route path="/shanze" component={Shanze} />
+          <Route path="/baxi" component={Baxi} />
+          <Route path="/zengfan" component={Zengfan} />
           <Route path="/release" component={Release} />
           <Route path="/person" component={Person} />
         </Route>
