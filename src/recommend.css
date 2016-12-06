@@ -1,0 +1,170 @@
+.header{
+  background-image:url('./images/littlepic/15.png');
+  background-size:100% 100%;
+  height:50px;
+  line-height:50px;
+  width:100%;
+  position:absolute;
+  z-index:5;
+  top:0;
+  text-align:center;
+}
+.headerpic{
+  width: 10vw;
+  height: 10vw;
+  margin-right: 20px;
+  position  : absolute;
+  top: 60%;
+  left: 90%;
+  transform : translate(-50%,-50%);
+}
+.recommendall{
+  width:100%;
+  overflow:auto;
+  top:50px;
+  position:absolute;
+  z-index:10;
+  bottom:70px;
+
+}
+.recommendall1{
+  width:100%;
+  overflow:auto;
+  top:50px;
+  position:absolute;
+  z-index:10;
+  bottom:5px;
+}
+
+.recdfirst1{
+  background-image: url(./images/recommend/tuijian/1.jpg);
+  margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+}
+.recdfirst2{
+  background-image: url(./images/recommend/tuijian/2.jpg);
+  margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+}
+.recdfirst3{
+  background-image: url(./images/recommend/tuijian/3.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+
+}
+.recdsecond1{
+  background-image: url(./images/recommend/wenji/1.png);
+  margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+}
+.recdsecond2{
+  background-image: url(./images/recommend/wenji/2.png);
+  margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+}
+.recdsecond3{
+  background-image: url(./images/recommend/wenji/3.png);
+  background-size: 100% 100%;
+  position: relative;
+  margin-bottom: 2vh;
+  height: 30vh;
+
+}
+.recdsecond4{
+  background-image: url(./images/recommend/wenji/4.png);
+  background-size: 100% 100%;
+  position: relative;
+  margin-bottom: 2vh;
+  height: 30vh;
+
+}
+.recdsecond5{
+  background-image: url(./images/recommend/wenji/5.png);
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+
+}
+.recp{
+  width:20vw;
+  height:3vh;
+  border-radius:15px 0 0 15px;
+  background-color:#E53935;
+  line-hight:30px;
+  text-align:center;
+  float:right;
+  margin-top:2vh;
+  color:#fff;
+}
+.rect{
+  width:60vw;
+  height:10vh;
+  font-size:20px;
+  color:#fff;
+  padding-top:6vh;
+  padding-left:5vw;
+}
+.recd{
+  width:70vw;
+  height:3vh;
+  font-size:18px;
+  color:#fff;
+  padding-left:5vw;
+}
+.recTime{
+  color:#fff;
+  margin-top:4vh;
+  padding-left:5vw;
+}
+.recL{
+  color:#fff;
+  padding-left:5vw;
+}
+.recdbom{
+  width: 100%;
+  height: 6vh;
+  background-color:rgba(255,255,255,0.2);
+  position: absolute;
+  bottom: 0;
+}
+.recdzf{
+  width: 3vh;
+  height: 3vh;
+  position: absolute;
+  top:25%;
+  left:50%;
+  float: left;
+}
+.recdul{
+  position: absolute;
+  top:25%;
+  left:60%;
+  float: left;
+  list-style: none;
+}
+.recdul li{
+  text-align: center;
+  float: left;
+  padding-left: 3px;
+
+}
+.recdul li a{
+  color:#fff;
+}
+.recdul1{
+  width: 3vh;
+  height: 3vh;
+}
+.recommendbarr{
+  width: 100%;
+  height: 6vh;
+}

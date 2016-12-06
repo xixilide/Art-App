@@ -1,10 +1,10 @@
  import React, { PropTypes } from 'react'
- import Img1 from '../images/home/year/1.jpg'
- import Img2 from '../images/home/year/2.jpg'
- import Img3 from '../images/home/year/3.jpg'
- import Img4 from '../images/home/year/4.jpg'
- import Img5 from '../images/home/year/5.jpg'
- import Img6 from '../images/home/year/6.jpg'
+ import Img1 from '../../images/home/year/1.jpg'
+ import Img2 from '../../images/home/year/2.jpg'
+ import Img3 from '../../images/home/year/3.jpg'
+ import Img4 from '../../images/home/year/4.jpg'
+ import Img5 from '../../images/home/year/5.jpg'
+ import Img6 from '../../images/home/year/6.jpg'
   class Cjy extends React.Component {
    render () {
     return(
@@ -35,6 +35,7 @@
             <img src={Img2} />
             <p>曾建勇，男，1971 年11月出生于广东澄海，毕业与国立华侨大学艺术系中国画专业。
             进入中央美术学院版画研修班学习，职业：画家。
+          </p>
           </div>
 
           <div>

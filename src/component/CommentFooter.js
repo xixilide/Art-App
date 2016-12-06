@@ -49,8 +49,11 @@ class CommentFooter extends React.Component {
                 <span className="glyphicon glyphicon-heart" style={{color:'red'}}></span>
 
     let goThere = this.state.manyShow2 ? null : <img src={Img1} style={{position:'absolute',left:'0',bottom:'10vh'}}/>
+  let share = this.state.manyShow3 ? null : <Share handleClick3={this.handleClick3.bind(this)}/>
+
     return(
       <div className='cf-wrap'>
+        <div className='zengfan-cue'>展览评论</div>
         <div className='cf-comment'>
           <div className='cf-nowshow'>
             <div className='cf-nowshow-img'></div>
@@ -78,7 +81,7 @@ class CommentFooter extends React.Component {
           {goThere}
 
           <div className='cf-footer2' onClick={this.handleClick2.bind(this)}><span className="glyphicon glyphicon-screenshot"></span>到这</div>
-          <Share />
+          {share}
           <div className='cf-footer3' onClick={this.handleClick3.bind(this)}><span className="glyphicon glyphicon-share"></span>分享</div>
           <div className='cf-footer4' onClick={this.handleClick4.bind(this)}><span className="glyphicon glyphicon-comment"></span>评论</div>
         </div>

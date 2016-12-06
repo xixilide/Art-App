@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react'
-import Img1 from '../images/home/xiaoge/1.jpg'
-import Img2 from '../images/home/xiaoge/2.jpg'
-import Img3 from '../images/home/xiaoge/3.jpg'
-import Img4from '../images/home/xiaoge/4.jpg'
-import Img5from '../images/home/xiaoge/5.jpg'
+import Img1 from '../../images/home/xiaoge/1.gif'
+import Img2 from '../../images/home/xiaoge/2.gif'
+import Img3 from '../../images/home/xiaoge/3.gif'
+import Img4 from '../../images/home/xiaoge/4.gif'
+import Img5 from '../../images/home/xiaoge/5.gif'
 class Xiaoge extends React.Component {
   render () {
     return(

@@ -19,7 +19,7 @@ class Main extends React.Component {
     this.state={
       setting:false,
       show:0,
-      topimg:false
+      topimg:false,
     }
   }
   handleClick(){
