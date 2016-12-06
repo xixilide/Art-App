@@ -21,7 +21,7 @@ class Footer extends React.Component {
   return(
 
     <div className="nav-footer">
-        <Link to="/login"  onlyActiveOnIndex={true} ><img src={zx} alt="" style={styles.img}/></Link>
+        <Link to="/login" onlyActiveOnIndex={true} ><img src={zx} alt="" style={styles.img}/></Link>
         <Link to="/recommend" >
           <img src={tj} style={styles.img} className="huan"/>
 
