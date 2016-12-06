@@ -5,6 +5,7 @@ import File1 from '../component/zjdraw/file1'
 import File2 from '../component/zjdraw/file2'
 import File3 from '../component/zjdraw/file3'
 import Img from '../images/littlepic/u1.jpg'
+
 class Recommend extends React.Component {
   render () {
     let styles={
@@ -15,13 +16,7 @@ class Recommend extends React.Component {
     }
   return(
     <div className="recommend">
-      <Header />
-      <div className="recommendall">
-      <div className="recommendbar"><img src={Img} style={styles.bar}/></div>
-      <File1 />
-      <File2 />
-      <File3 />
-      </div>
+
 
     </div>
 )

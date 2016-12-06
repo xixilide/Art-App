@@ -14,7 +14,7 @@ class Shanze extends React.Component {
   return(
       <div className='zengfan-wrap baxi-wrap'>
       <img src={Img7} style={{position:'absolute',top:'10px',left:'10px',width:'10vw',height:'10vw'}}
-                />
+              onClick={this.context.router.goBack.bind(this)}  />
       <img src={Img1} />
       <p><span style={{fontSize:'4vw'}}>杉泽【中国百鬼】</span>子不语怪力乱神。国人画之。</p>
       <img src={Img2} />
@@ -34,5 +34,7 @@ class Shanze extends React.Component {
   )
   }
 }
-
+Shanze.contextTypes = {
+  router:React.PropTypes.object
+}
 export default Shanze;
