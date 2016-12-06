@@ -108,7 +108,7 @@
 .midnav{
   height: 30vh;
 }
-<<<<<<< HEAD
+
 .nav-footer{
   flex-shrink:0;
   width: 100vw;
@@ -132,12 +132,7 @@
 .nav-footer a:last-children{
   border:none;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 6205b73ec349ed6deee3a89f2750b833e6e491b7
-=======
->>>>>>> 7ae47cebc13b83a4696e4d5b767987477802c4d6
 .person-wrap{
   display: flex;
   flex-direction: column;
@@ -157,7 +152,8 @@
   bottom: 0;
   justify-content: space-around;
   align-items: center;
-<<<<<<< HEAD
+
+
   justify-content: space-between;
   padding:0 10px;
 }
@@ -210,8 +206,7 @@
   text-align:center;
   float:right;
   margin-top:2vh;
-=======
->>>>>>> 6205b73ec349ed6deee3a89f2750b833e6e491b7
+
   color:#fff;
 }
 .nav-footer a{
