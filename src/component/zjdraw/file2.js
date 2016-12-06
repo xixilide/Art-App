@@ -11,7 +11,7 @@ class File2 extends React.Component {
   render () {
 
    return(
-     <div className="recdfirst">
+     <div className="recdfirst2">
         <p className="recp">剩余90天</p>
         <p className="rect">散步－－曾梵志个人展</p>
         <p className="recd">/第四届艺术与科学国际作品展</p>
