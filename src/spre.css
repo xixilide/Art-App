@@ -19,3 +19,14 @@
 .swiper-container1{
   height: 30vh;
 }
+.claH{
+ height: auto;
+ width: 100%;
+}
+.clswen{
+  height: auto;
+}
+.kong{
+  height: 12vh;
+  background-image: url(./images/home/draw/5bg.jpg);
+}
