@@ -14,11 +14,9 @@ class Release extends React.Component {
           <span>上传照片</span>
           <img src={Img1} />
         </div>
-        <form>
-        <textarea name='aaa'>
-          说点什么。。。
-        </textarea>
-      </form>
+        <textarea name='aaa' defaultValue='说点什么。。。'/>
+
+
        <div className='release-photo'>
          <img src={Img2} />
          <p>点击添加照片</p>

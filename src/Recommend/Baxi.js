@@ -15,7 +15,7 @@ class Baxi extends React.Component {
   return(
       <div className='zengfan-wrap baxi-wrap'>
       <img src={Img8} style={{position:'absolute',top:'10px',left:'10px',width:'10vw',height:'10vw'}}
-              />
+              onClick={this.context.router.goBack.bind(this)}/>
 
       <img src={Img1} />
       <p>来自巴西的摄影师 Nádia Maria 擅长以充满实验性及丰富情感的方式，以摄影传达埋藏在内心的情绪和想法。Nádia Maria
@@ -52,5 +52,7 @@ class Baxi extends React.Component {
   )
   }
 }
-
+Baxi.contextTypes = {
+  router:React.PropTypes.object
+}
 export default Baxi;

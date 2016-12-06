@@ -4,10 +4,11 @@ import Header from '../component/header'
 import File1 from '../component/zjdraw/file1'
 import File2 from '../component/zjdraw/file2'
 import File3 from '../component/zjdraw/file3'
-import Img from '../images/littlepic/r1.jpg'
+
 
 import Recommendwen from './recommendwen.js'
 import Recommendzhan from './recommendzhan.js'
+
 class Recommend extends React.Component {
   constructor(){
    super();
@@ -54,6 +55,8 @@ class Recommend extends React.Component {
 
   return(
     <div className="recommend">
+
+
       <Header />
       <div className="recommendall1">
           <div>
