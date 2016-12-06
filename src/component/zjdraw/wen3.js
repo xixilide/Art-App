@@ -7,28 +7,23 @@ import heart from '../../images/littlepic/21.png'
 import hearth from '../../images/littlepic/22.png'
 import zhuanfh from '../../images/littlepic/23.png'
 
-class File1 extends React.Component {
+class Wen3 extends React.Component {
   render () {
    return(
-
-       <div className="recdfirst1">
-          <p className="recp">剩余80天</p>
-          <p className="rect">对话列奥纳多达芬奇</p>
-          <p className="recd">/第四届艺术与科学国际作品展</p>
-          <h6 className="recTime">展览时间：2016.09.19-11.19</h6>
-          <h6 className="recL">展览地点：尤伦斯艺术中心</h6>
+       <div className="recdsecond3">
+          <p className="rect">Seth Taras　摄影合成作品</p>
+          <p className="recd">[Then & Now Composites]</p>
           <div className="recdbom">
             <a><img src={zhuanf} className="recdzf" /></a>
             <ul className="recdul">
               <li><a><img src={heart} className="recdul1"/>821</a></li>
-              <li><a><img src={liulan} className="recdul1"/>1.3k</a></li>
+              <li><a><img src={liulan} className="recdul1"/>123</a></li>
               <li><a><img src={plun} className="recdul1"/>56</a></li>
             </ul>
           </div>
-
         </div>
    )
   }
 }
 
-export default File1;
+export default Wen3;

@@ -1,19 +1,8 @@
-/*.header{
-  height: 80px;
-  background-image:url('./images/littlepic/15.png');
-  background-size:100% 100%;
-
-  display: flex;
-  flex-shrink:0;
-  align-items: center;
-  justify-content: space-between;
-  padding:0 10px;
-}*/
 .header{
   background-image:url('./images/littlepic/15.png');
   background-size:100% 100%;
-  height:80px;
-  line-height:80px;
+  height:50px;
+  line-height:50px;
   width:100%;
   position:absolute;
   z-index:5;
@@ -32,10 +21,10 @@
 .recommendall{
   width:100%;
   overflow:auto;
-  top:80px;
+  top:50px;
   position:absolute;
   z-index:10;
-  bottom:70px;
+  bottom:30px;
 }
 .recdfirst1{
   background-image: url(./images/recommend/tuijian/1.jpg);
@@ -53,6 +42,43 @@
 }
 .recdfirst3{
   background-image: url(./images/recommend/tuijian/3.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+
+}
+.recdsecond1{
+  background-image: url(./images/recommend/wenji/1.png);
+  margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+}
+.recdsecond2{
+  background-image: url(./images/recommend/wenji/2.png);
+  margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+}
+.recdsecond3{
+  background-image: url(./images/recommend/wenji/3.png);
+  background-size: 100% 100%;
+  position: relative;
+  margin-bottom: 2vh;
+  height: 30vh;
+
+}
+.recdsecond4{
+  background-image: url(./images/recommend/wenji/4.png);
+  background-size: 100% 100%;
+  position: relative;
+  margin-bottom: 2vh;
+  height: 30vh;
+
+}
+.recdsecond5{
+  background-image: url(./images/recommend/wenji/5.png);
   background-size: 100% 100%;
   position: relative;
   height: 30vh;
