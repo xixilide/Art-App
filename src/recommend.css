@@ -152,20 +152,18 @@
 
 
   list-style: none;
-
+  color: #fff;
 }
 .recdul li{
   text-align: center;
   float: left;
-  padding-left: 3px;
+  padding-left: 8px;
 
 
 
 
 }
-.recdul li a{
-  color:#fff;
-}
+
 .recdul1{
   width: 3vh;
   height: 3vh;
@@ -173,4 +171,28 @@
 .recommendbarr{
   width: 100%;
   height: 6vh;
+}
+.rectf{
+  height:2vh;
+  font-size:14px;
+  color:#fff;
+  line-height: 50vw;
+  text-align: center;
+}
+.recdf{
+  height:3vh;
+  font-size:14px;
+  color:#fff;
+  line-height: 50vw;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.recTimef{
+  height:3vh;
+  font-size:14px;
+  color:#fff;
+  line-height: 50vw;
+  margin: 0 auto;
+  text-align: center;
 }
