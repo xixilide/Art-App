@@ -11,9 +11,9 @@ class Wen2 extends React.Component {
   render () {
    return(
 
-       <div className="recsencond2">
-          <p className="recp">杉泽【中国百鬼】</p>
-          <p className="rect">子不语怪力乱神。国人画之。</p>
+       <div className="recdsecond2">
+          <p className="rect">杉泽【中国百鬼】</p>
+          <p className="recd">子不语怪力乱神。国人画之。</p>
           <div className="recdbom">
             <a><img src={zhuanf} className="recdzf" /></a>
             <ul className="recdul">

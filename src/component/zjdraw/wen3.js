@@ -11,8 +11,8 @@ class Wen3 extends React.Component {
   render () {
    return(
        <div className="recdsecond3">
-          <p className="recp">Seth Taras　摄影合成作品</p>
-          <p className="rect">[Then & Now Composites]</p>
+          <p className="rect">Seth Taras　摄影合成作品</p>
+          <p className="recd">[Then & Now Composites]</p>
           <div className="recdbom">
             <a><img src={zhuanf} className="recdzf" /></a>
             <ul className="recdul">

@@ -56,21 +56,18 @@ class Recommend extends React.Component {
     <div className="recommend">
       <Header />
       <div className="recommendall">
-        <div className="recommendbar">
           <div>
-             <div onTouchEnd={this.handleTab.bind(this,0)} style={styles.btn1} className="sbtn1" >
-            正在展出
+             <div onTouchEnd={this.handleTab.bind(this,1)} style={styles.btn1} className="sbtn1" >
+            展
           </div>
-            <div onTouchEnd={this.handleTab.bind(this,1)} style={styles.btn2} className="sbtn2" >
-            即将展出
+            <div onTouchEnd={this.handleTab.bind(this,0)} style={styles.btn2} className="sbtn2" >
+            文
           </div>
-          </div>
-
           <div>
-              {this.state.show==0 ?   <Recommendzhan/> :<Recommendwen />}
+              {this.state.show==0 ?   <Recommendwen/> :<Recommendzhan />}
           </div>
         </div>
-      
+
       </div>
 
     </div>

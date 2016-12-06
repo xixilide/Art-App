@@ -11,7 +11,7 @@ class Wen4 extends React.Component {
   render () {
    return(
        <div className="recdsecond4">
-          <p className="recp">格子｜barbara dziadosz</p>
+          <p className="rect">格子｜barbara dziadosz</p>
           <div className="recdbom">
             <a><img src={zhuanf} className="recdzf" /></a>
             <ul className="recdul">

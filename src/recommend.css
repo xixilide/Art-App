@@ -24,7 +24,7 @@
   top:50px;
   position:absolute;
   z-index:10;
-  bottom:70px;
+  bottom:30px;
 }
 .recdfirst1{
   background-image: url(./images/recommend/tuijian/1.jpg);
@@ -48,21 +48,37 @@
 
 }
 .recdsecond1{
-  background-image: url(./images/recommend/tuijian/1.jpg);
+  background-image: url(./images/recommend/wenji/1.png);
   margin-bottom: 2vh;
   background-size: 100% 100%;
   position: relative;
   height: 30vh;
 }
 .recdsecond2{
-  background-image: url(./images/recommend/tuijian/2.jpg);
+  background-image: url(./images/recommend/wenji/2.png);
   margin-bottom: 2vh;
   background-size: 100% 100%;
   position: relative;
   height: 30vh;
 }
 .recdsecond3{
-  background-image: url(./images/recommend/tuijian/3.jpg);
+  background-image: url(./images/recommend/wenji/3.png);
+  background-size: 100% 100%;
+  position: relative;
+  margin-bottom: 2vh;
+  height: 30vh;
+
+}
+.recdsecond4{
+  background-image: url(./images/recommend/wenji/4.png);
+  background-size: 100% 100%;
+  position: relative;
+  margin-bottom: 2vh;
+  height: 30vh;
+
+}
+.recdsecond5{
+  background-image: url(./images/recommend/wenji/5.png);
   background-size: 100% 100%;
   position: relative;
   height: 30vh;

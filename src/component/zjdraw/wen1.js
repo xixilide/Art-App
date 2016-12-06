@@ -12,8 +12,8 @@ class Wen1 extends React.Component {
    return(
 
        <div className="recdsecond1">
-          <p className="recp">照片为诗｜巴西摄影师 Nadia Maria</p>
-          <p className="rect"></p>
+          <p className="rect">照片为诗｜巴西摄影师 Nadia Maria</p>
+          <p className="recd"></p>
           <div className="recdbom">
             <a><img src={zhuanf} className="recdzf" /></a>
             <ul className="recdul">

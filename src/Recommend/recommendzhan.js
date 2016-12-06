@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import Header from '../component/header'
+import {  Link} from 'react-router';
 
 import File1 from '../component/zjdraw/file1'
 import File2 from '../component/zjdraw/file2'
@@ -14,13 +15,12 @@ class Recommendzhan extends React.Component {
       }
     }
   return(
-    <div className="recommend">
       <div className="recommendall">
         <File1 />
-        <File2 />
+        <Link to="/zengfan"><File2 /></Link>
         <File3 />
       </div>
-    </div>
+
 )
 }
 }
