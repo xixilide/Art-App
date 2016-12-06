@@ -14,6 +14,8 @@ import Spreadtrum from './Spreadtrum/Spreadtrum';
 import ClaDraw from './Spreadtrum/classify/huihua';
 import ClaMo from './Spreadtrum/classify/shuimo';
 import Sheying from './Spreadtrum/classify/sheying';
+import Design from './Spreadtrum/classify/Design';
+import zhuangzhi from './Spreadtrum/classify/zhuangzhi';
 
 import Cjy from './Spreadtrum/show/cjy';
 import Xiaoge from './Spreadtrum/show/xiaoge';
@@ -35,10 +37,9 @@ class Routers extends React.Component {
 
             <Route path="/huihua" component={ClaDraw} />
             <Route path="/shuimo" component={ClaMo} />
-
-
-           <Route path="/huihua" component={ClaDraw} />
-           <Route path="/sheying" component={Sheying} />
+            <Route path="/sheying" component={Sheying} />
+            <Route path="/design" component={Design} />
+            <Route path="/zhuangzhi" component={zhuangzhi} />
 
            <Route path="/cjy" component={Cjy} />
            <Route path="/xiaoge" component={Xiaoge} />
