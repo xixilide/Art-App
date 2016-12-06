@@ -1,0 +1,21 @@
+/*spreadtrum*/
+.midnav{
+  height: 15vh;
+}
+.now_bar{
+    width:100%;
+    height: 8vh;
+}
+.now_pic{
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 0.5vh;
+}
+.picbox{
+  height: 30vh;
+  width:100%;
+  z-index: 5;
+}
+.swiper-container1{
+  height: 30vh;
+}

@@ -6,6 +6,7 @@ import Routers from './routers';
 
 import './person.css'
 import './recommend.css'
+import './spre.css'
 
 import './swiper.min.css';
 

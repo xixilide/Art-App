@@ -24,7 +24,15 @@
   top:50px;
   position:absolute;
   z-index:10;
-  bottom:30px;
+  bottom:70px;
+}
+.recommendall1{
+  width:100%;
+  overflow:auto;
+  top:50px;
+  position:absolute;
+  z-index:10;
+  bottom:5px;
 }
 .recdfirst1{
   background-image: url(./images/recommend/tuijian/1.jpg);

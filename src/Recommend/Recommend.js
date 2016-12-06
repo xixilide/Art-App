@@ -55,7 +55,7 @@ class Recommend extends React.Component {
   return(
     <div className="recommend">
       <Header />
-      <div className="recommendall">
+      <div className="recommendall1">
           <div>
              <div onTouchEnd={this.handleTab.bind(this,1)} style={styles.btn1} className="sbtn1" >
             展

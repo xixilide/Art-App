@@ -8,7 +8,7 @@ class Spreadtrum extends React.Component {
   constructor(){
    super();
    this.state={
-     show:1,
+     show:0,
      chose:true
    }
  }
