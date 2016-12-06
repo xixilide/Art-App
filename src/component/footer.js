@@ -52,11 +52,6 @@ class Footer extends React.Component {
           </Link>
         <Link to="/release" onClick={this.handleClick3.bind(this)}> <img ref='fabu' src={fb} style={styles.img}/></Link>
         <Link to="/person" onClick={this.handleClick4.bind(this)}> <img ref='geren' src={gr} style={styles.img}/></Link>
-        <Link to="/login" onlyActiveOnIndex={true} ><img src={zx} alt="" style={styles.img}/></Link>
-        <Link to="/recommend" >
-          <img src={tj} style={styles.img} className="huan"/></Link>
-        <Link to="/release"> <img src={fb} style={styles.img}/></Link>
-        <Link to="/person"> <img src={gr} style={styles.img}/></Link>
     </div>
 
   )

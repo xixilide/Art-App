@@ -36,15 +36,9 @@ class Routers extends React.Component {
         <Route path="/denglu" component={Login}/>
         <Route path="/zhuce" component={Zhuce} />
         <Route path="/login"  component={App} >
-<<<<<<< HEAD
           <IndexRoute  component={Spreadtrum} />
-          <Route path="/shuimo" component={ClaMo} />
-           <Route path="/huihua" component={ClaDraw} />
-           <Route path="/sheying" component={Sheying} />
-=======
-          <IndexRoute   component={Spreadtrum} />
+  
 
-           <Route path="/huihua" component={ClaDraw} />
            <Route path="/diaosu" component={Diaosu} />
 
 
