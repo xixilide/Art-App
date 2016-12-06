@@ -7,7 +7,7 @@ class Picshow extends React.Component {
     var mySwiper = new Swiper ('.swiper-container1', {
       initialSlide :1,
       autoplay: 5000,
-      pagination: '.swiper-pagination'
+      pagination: '.swiper-pagination1'
     })
   }
   handleTouch(e){
@@ -35,7 +35,7 @@ class Picshow extends React.Component {
             <div className="swiper-slide slide2"><img　src= {Img2} style={styles.img}/></div>
             <div className="swiper-slide slide3" ref='nopagination'><img　src= {Img3} style={styles.img}/></div>
         </div>
-        <div className="swiper-pagination" ref='dott'></div>
+        <div className="swiper-pagination1" ref='dott'></div>
     </div>
     </div>
   )
