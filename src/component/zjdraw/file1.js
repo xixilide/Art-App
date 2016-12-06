@@ -25,7 +25,6 @@ class File1 extends React.Component {
               <li><a><img src={plun} className="recdul1"/>56</a></li>
             </ul>
           </div>
-
         </div>
    )
   }

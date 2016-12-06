@@ -17,8 +17,7 @@ class Recommendwen extends React.Component {
       }
     }
   return(
-
-      <div className="recommendall">
+      <div >
         <Link to="/baxi"><Wen1 /></Link>
         <Link to="/shanze"><Wen2 /></Link>
         <Wen3 />

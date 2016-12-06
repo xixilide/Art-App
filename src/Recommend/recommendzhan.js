@@ -15,7 +15,7 @@ class Recommendzhan extends React.Component {
       }
     }
   return(
-      <div className="recommendall">
+      <div>
         <File1 />
         <Link to="/zengfan"><File2 /></Link>
         <File3 />
