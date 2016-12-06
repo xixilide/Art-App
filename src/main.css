@@ -146,6 +146,12 @@
 .zhuce span{
   color: red;
 }
+.sbtn1{
+  border-radius: 0 4vh 4vh 0;
+}
+.sbtn2{
+  border-radius: 4vh 0 0 4vh;
+}
 .midnav{
   height: 30vh;
 }
