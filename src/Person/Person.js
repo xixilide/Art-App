@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react';
-import Main from './Main';
-import Show from '../Spreadtrum/classify/zhuangzhi'
+import Main from './Main'
 
 
 class Person extends React.Component {
@@ -8,7 +7,7 @@ class Person extends React.Component {
 
 return(
     <div>
-      <Show/ >
+      <Main />
     </div>
     )
   }
