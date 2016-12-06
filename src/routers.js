@@ -12,6 +12,7 @@ import Baxi from './Recommend/Baxi';
 import Release from './Release/Release';
 import Spreadtrum from './Spreadtrum/Spreadtrum';
 import ClaDraw from './Spreadtrum/classify/huihua';
+import ClaMo from './Spreadtrum/classify/shuimo';
 
 import Cjy from './Spreadtrum/show/cjy';
 import Xiaoge from './Spreadtrum/show/xiaoge';
@@ -30,7 +31,8 @@ class Routers extends React.Component {
         <Route path="/zhuce" component={Zhuce} />
         <Route path="/login"  component={App} >
           <IndexRoute   component={Spreadtrum} />
-           <Route path="/huihua" component={ClaDraw} />
+            <Route path="/huihua" component={ClaDraw} />
+            <Route path="/shuimo" component={ClaMo} />
 
            <Route path="/cjy" component={Cjy} />
            <Route path="/xiaoge" component={Xiaoge} />
