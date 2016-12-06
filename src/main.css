@@ -143,7 +143,6 @@
 /*footer*/
 .nav-footer{
   flex-shrink:0;
-  height: 14vh;
   width: 100vw;
   background-color: #000;
   display: flex;
@@ -151,7 +150,7 @@
   bottom: 0;
   justify-content: space-around;
   align-items: center;
-  color:#fff
+  color:#fff;
 }
 .nav-footer a{
   color:#424242;
