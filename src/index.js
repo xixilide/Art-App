@@ -15,4 +15,4 @@ import './swiper.min.css';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
-ReactDOM.render(<ClaDraw />,document.getElementById('root'));
+ReactDOM.render(<Routers />,document.getElementById('root'));
