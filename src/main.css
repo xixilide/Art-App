@@ -5,9 +5,8 @@
 }
 .nav-footer{
   flex-shrink:0;
-  height: 12vh;
   width: 100vw;
-  height: 10vh;
+  height:12vh;
   background-color: #000;
   display: flex;
   position: fixed;
@@ -27,7 +26,6 @@
 .nav-footer a:last-children{
   border:none;
 }
-
 
 .person-wrap{
   display: flex;
@@ -60,7 +58,7 @@
   width: 100%;
   height: 28vh;
   background-size: 100% 100%;
-<<<<<<< HEAD
+
 
   height: 30vh;
   background-size: 100% 100%;
@@ -69,11 +67,11 @@
 .recdfirst1{
   background-image: url(./images/recommend/tuijian/1.jpg);
   margin-bottom: 2vh;
-=======
+
   height: 30vh;
   background-size: 100% 100%;
   position: relative;
->>>>>>> 0784351a0a0f7384d0ee73a79f867f15dcbc8084
+
 }
 .recdfirst2{
   background-image: url(./images/recommend/tuijian/2.jpg);
@@ -82,9 +80,9 @@
 .recdfirst3{
   background-image: url(./images/recommend/tuijian/3.jpg);
 }
-<<<<<<< HEAD
 
-=======
+
+
 .recp{
   width:20vw;
   height:3vh;

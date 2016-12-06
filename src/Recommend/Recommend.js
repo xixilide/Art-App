@@ -15,5 +15,6 @@ class Recommend extends React.Component {
     </div>
 )
 }
+}
 
 export default Recommend;
