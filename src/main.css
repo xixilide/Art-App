@@ -174,8 +174,12 @@
   border:none;
 }
 
-
-
+.sbtn1{
+  border-radius: 0 4vh 4vh 0;
+}
+.sbtn2{
+  border-radius:  4vh 0 0 4vh;
+}
 .person-wrap{
   display: flex;
   flex-direction: column;
