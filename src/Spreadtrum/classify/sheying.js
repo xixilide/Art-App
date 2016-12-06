@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react'
 class Sheying extends React.Component {
   render () {
     return(
-      <div>
+      <div className="homesheying">
         sheying
       </div>
     )
