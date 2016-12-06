@@ -4,7 +4,7 @@ import Wen1 from '../component/zjdraw/wen1'
 import Wen2 from '../component/zjdraw/wen2'
 import Wen3 from '../component/zjdraw/wen3'
 import Img from '../images/littlepic/r2.jpg'
-class Recommend extends React.Component {
+class Recommendwen extends React.Component {
   render () {
     let styles={
       bar:{
@@ -14,9 +14,7 @@ class Recommend extends React.Component {
     }
   return(
     <div className="recommend">
-      <Header />
       <div className="recommendall">
-      <div className="recommendbar"><img src={Img} style={styles.bar}/></div>
       <Wen1 />
       <Wen2 />
       <Wen3 />
@@ -25,4 +23,4 @@ class Recommend extends React.Component {
 )
 }
 }
-export default Recommend;
+export default Recommendwen;
