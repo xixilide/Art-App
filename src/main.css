@@ -5,7 +5,7 @@
 }
 
 .login-wrap{
-  background-image: url(./images/login/3.jpg);
+  background-image: url(./images/loading/5.png);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@
   margin-right: 10px;
 }
 .zhuce{
-  background: url(./images/login/3.jpg);
+  background: url(./images/loading/5.png);
   height: 100vh;
   color: red;
   display: flex;
