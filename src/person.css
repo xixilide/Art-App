@@ -228,3 +228,41 @@ margin-bottom:10px;
 .avatar-choose{
   border-bottom:1px solid red;
 }
+.bgbig{
+  background-image: url(./images/login/1.png);
+  width:100%;
+  height:88vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.search{
+  width:100%;
+  height:12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:30px;
+}
+.search img{
+  width: 5vw;
+  height: 5vw;
+  position: absolute;
+}
+
+.bga{
+  background-color:rgba(255,255,255,0.5);
+  width: 100%;
+  height:76vh;
+}
+.bgsmail{
+  width: 100%;
+  height:76vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.compoent{
+  margin-top:12vh;
+}
