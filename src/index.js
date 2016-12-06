@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './main.css';
 import './zengfan.css';
 import Routers from './routers';
+import ClaDraw from './Spreadtrum/classify/huihua';
 
 import './person.css'
 import './recommend.css'

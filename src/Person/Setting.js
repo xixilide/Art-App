@@ -1,12 +1,29 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from 'react';
+import Main from "./Main"
 
 class Setting extends React.Component {
+  constructor(){
+    super();
+    this.state={
+      setting:false,
+      show:0
+    }
+  }
+  handleClick(){
+    this.setState({
+      setting:!this.state.setting,
+      show:1
+    })
+  }
+
   render () {
+      let setting2 =this.state.show==1 ? <Main /> :null
       return(
-        <div className="setting-wrap">
-            <div className="setting-top">
+      <div>
+        <div className="setting-wrap" style={{marginLeft:this.state.setting ? "-380px" :'0px'}}>
+            <div className="setting-top" >
               <div>
-              <span className="glyphicon glyphicon-chevron-left"></span>
+              <span className="glyphicon glyphicon-chevron-left" onClick={this.handleClick.bind(this)}></span>
               </div>
             </div>
             <div className="setting-center">
@@ -16,7 +33,7 @@ class Setting extends React.Component {
                   </div>
                   <div className="center-content">
                     <p>自动离线缓存</p>
-                      <span className="glyphicon glyphicon-chevron-right"></span>
+                      <span className="glyphicon glyphicon-chevron-right" ></span>
                   </div>
                   <div className="center-content">
                       <p>使用流量状态下提醒</p>
@@ -26,15 +43,12 @@ class Setting extends React.Component {
             <div className="setting-buttom">
                 <div className="center-content">
                   <p>消息推送</p>
-
                 </div>
                 <div className="center-content">
                   <p>意见反馈</p>
-
                 </div>
                 <div className="center-content">
                     <p>当前版本</p>
-
                 </div>
                 <div className="center-content">
                     <p>关于艺集</p>
@@ -47,6 +61,7 @@ class Setting extends React.Component {
               <p className="now">当前版本１．０．４２</p>
             </div>
         </div>
+      </div>
       )
   }
 }

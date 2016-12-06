@@ -73,4 +73,5 @@ class Recommend extends React.Component {
 )
 }
 }
+
 export default Recommend;
