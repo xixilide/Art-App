@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react'
 import Header from '../component/header'
-import File1 from '../component/zjdraw/file1'
-import File2 from '../component/zjdraw/file2'
-import File3 from '../component/zjdraw/file3'
-import Img from '../images/littlepic/r1.jpg'
+import Wen1 from '../component/zjdraw/wen1'
+import Wen2 from '../component/zjdraw/wen2'
+import Wen3 from '../component/zjdraw/wen3'
+import Img from '../images/littlepic/r2.jpg'
 class Recommend extends React.Component {
   render () {
     let styles={
@@ -17,9 +17,9 @@ class Recommend extends React.Component {
       <Header />
       <div className="recommendall">
       <div className="recommendbar"><img src={Img} style={styles.bar}/></div>
-      <File1 />
-      <File2 />
-      <File3 />
+      <Wen1 />
+      <Wen2 />
+      <Wen3 />
       </div>
     </div>
 )

@@ -1,14 +1,3 @@
-/*.header{
-  height: 80px;
-  background-image:url('./images/littlepic/15.png');
-  background-size:100% 100%;
-
-  display: flex;
-  flex-shrink:0;
-  align-items: center;
-  justify-content: space-between;
-  padding:0 10px;
-}*/
 .header{
   background-image:url('./images/littlepic/15.png');
   background-size:100% 100%;
@@ -52,6 +41,27 @@
   height: 30vh;
 }
 .recdfirst3{
+  background-image: url(./images/recommend/tuijian/3.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+
+}
+.recdsecond1{
+  background-image: url(./images/recommend/tuijian/1.jpg);
+  margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+}
+.recdsecond2{
+  background-image: url(./images/recommend/tuijian/2.jpg);
+  margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
+  height: 30vh;
+}
+.recdsecond3{
   background-image: url(./images/recommend/tuijian/3.jpg);
   background-size: 100% 100%;
   position: relative;
