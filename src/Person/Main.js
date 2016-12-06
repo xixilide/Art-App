@@ -6,21 +6,35 @@ import Img4 from "../images/person/4.png";
 import Img5 from "../images/person/5.png";
 import Img6 from "../images/person/6.png";
 import Img7 from '../images/home/water/2.jpg';
+import Img8 from '../images/littlepic/12.jpg';
+
 import Paper from 'material-ui/Paper';
 import Link from 'react-router';
+import Setting from "./Setting";
+import TopImg from "./TopImg"
 
 class Main extends React.Component {
   constructor(){
     super();
     this.state={
-      setting:true
+      setting:false,
+      show:0,
+      topimg:false,
     }
   }
   handleClick(){
     this.setState({
-      setting:!false
+      setting:!this.state.setting,
+      show:1
     })
   }
+
+handleClick2(){
+  this.setState({
+    topimg:!this.state.topimg,
+    show:3
+  })
+}
   render () {
     const style = {
             height: 100,
@@ -29,12 +43,17 @@ class Main extends React.Component {
             textAlign: 'center',
             display: 'inline-block',
           };
+      let setting =this.state.show==1 ? <TopImg />:""
+    let topimg=this.state.show==3?<Setting />:''
     return(
-      <div className="person-wrap">
+      <div>
+        {setting}
+        {topimg}
+      <div className="person-wrap" style={{marginLeft:this.state.setting ? "-380px" :'0px',overflow:this.state.setting ?'hidden':'none'}}>
             <div className="person-top clearfix">
                 <div className="person-top-icon">
                   <span className="glyphicon glyphicon-chevron-left"></span>
-                  <span className="glyphicon glyphicon-cog"></span>
+                  <span className="glyphicon glyphicon-cog" onClick={this.handleClick2.bind(this)}></span>
                 </div>
                 <div>
                     <Paper style={style} zDepth={2} circle={true} >
@@ -57,7 +76,7 @@ class Main extends React.Component {
                 </div>
                 <div className="All">
                   <span>ALL</span>
-                  <span className="glyphicon glyphicon-chevron-right"/>
+                  <span className="glyphicon glyphicon-chevron-right" />
                 </div>
               </div>
               <div className="center-img">
@@ -72,9 +91,16 @@ class Main extends React.Component {
               </div>
             </div>
             <div className="person-bottom">
-              footer
+              <div className="person-bottom-img">
+
+              </div>
+              <div className="person-bottom-b">
+                <img src={Img5}/>
+                <img src={Img6}/>
+              </div>
             </div>
         </div>
+      </div>
       )
   }
 }

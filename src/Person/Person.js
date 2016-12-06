@@ -7,7 +7,7 @@ class Person extends React.Component {
 
 return(
     <div>
-    <Main />
+      <Main />
     </div>
     )
   }
