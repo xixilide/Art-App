@@ -1,11 +1,7 @@
 import React, { PropTypes } from 'react';
 import Swiper from 'swiper';
 
-import Img1 from '../images/home/first/midnav/1.jpg';
-import Img2 from '../images/home/first/midnav/2.jpg';
-import Img3 from '../images/home/first/midnav/3.jpg';
-import Img4 from '../images/home/first/midnav/4.jpg';
-import Img5 from '../images/home/first/midnav/5.jpg';
+
 
 import {  Link} from 'react-router';
 import Img1 from '../images/home/first/midnav/1.jpg'
