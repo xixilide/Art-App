@@ -1,5 +1,151 @@
-*{margin: 0;padding: 0}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+.swiper-wrapper{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide{
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.slide1{
+  background-image: url(./images/loading/1.jpg);
+}
+.slide2{
+  background-image: url(./images/loading/2.jpg);
+}
+.slide3{
+  background-image: url(./images/loading/3.jpg);
+}
+.slide4{
+  background-image: url(./images/loading/4.jpg);
+}
+.slide5{
+  background-image: url(./images/login/1.png);
+}
+.slide5 p{
+  text-align: center;
+  padding-top: 135%
+}
+.slide5 a{
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+.login-wrap{
+  display: flex;
+}
+.wrap{
+  display: flex;
+  height: 100vh;
+}
+.sprd-wrap{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.login-wrap{
+  background-image: url(./images/login/3.jpg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-position: 50% 50%;
+  background-size: cover;
+  justify-content: center;
+}
+.login-form{
+  text-align: center;
+  flex-grow: 1;
+  padding-top: 60%;
+}
+.login-form input{
+  border: none;
+  display: flex;
+  border-bottom: 1px solid #777;
+  width: 80%;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+  color: #666;
+  border-radius: 3px;
+}
+.login-form a{
+  display: inline-block;
+  margin: 20px;
+  font-size: 6vw;
+  color: #777;
+  text-decoration: none;
+}
+.login-radio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.login-radio input{
+  width: 16px;
+  height: 16px;
+  margin: 0;
 
+}
+.login-radio .a{
+  color: #fff;
+  font-size: 12px;
+}
+.login-ww{
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-ww a{
+  font-size: 14px;
+  text-decoration: none;
+  color: #777
+}
+.login-ww img{
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  margin-right: 10px;
+}
+.zhuce{
+  background: url(./images/login/3.jpg);
+  height: 100vh;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  background-position: 50% 50%;
+  background-size: cover;
+  justify-content: center;
+}
+.zhuce form{
+  padding-left: 20%;
+}
+.zhuce label {
+  width: 20%;
+  color: #00bcd4;
+}
+.zhuce input{
+  color: #666;
+}
+.zhuce button{
+  display: flex;
+  background-color: #bada55;
+  color: #00bcd4;
+  margin: 20% 25%;
+}
+.zhuce span{
+  color: red;
+}
 .midnav{
   height: 30vh;
 }
@@ -27,19 +173,25 @@
 .nav-footer a:last-children{
   border:none;
 }
-
 .person-wrap{
   display: flex;
   flex-direction: column;
   height:88vh;
 }
-.header{
-  height: 80px;
-  background-image:url('./images/littlepic/15.png');
-  background-size:100% 100%;
-  position: relative;
+
+/*header*/
+
+/*footer*/
+.nav-footer{
   flex-shrink:0;
+  height: 12vh;
+  width: 100vw;
+  height: 10vh;
+  background-color: #000;
   display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-around;
   align-items: center;
   justify-content: space-between;
   padding:0 10px;
@@ -62,18 +214,33 @@
   background-size: 100% 100%;
   position: relative;
 
+  color:#fff
 }
-.recdfirst1{
-  background-image: url(./images/recommend/tuijian/1.jpg);
-  margin-bottom: 2vh;
+.nav-footer a{
+  color:#424242;
+  font-size: 1.4em;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);;
+  flex-grow: 1;
 }
-.recdfirst2{
-  background-image: url(./images/recommend/tuijian/2.jpg);
-  margin-bottom: 2vh;
+.nav-footer a:last-children{
+  border:none;
 }
-.recdfirst3{
-  background-image: url(./images/recommend/tuijian/3.jpg);
+/*recommend*/
+
+
+/*spreadtrum_clickShow*/
+
+.xioage-h3{
+  width: 15%;
+  background-color: 	#FF3030;
 }
+.cjy-h3{
+  width: 15%;
+  background-color: #FF3030;
+}
+
 
 
 .recdbom{
@@ -83,14 +250,12 @@
   position: absolute;
   bottom: 0;
 }
-.recdzf{
-  width: 3vh;
-  height: 3vh;
-  position: absolute;
-  top:25%;
-  left:55%;
-  float: left;
+
+/*spreadtrum*/
+.midnav{
+  height: 15vh;
 }
+
 .recdul1{
   width: 3vh;
   height: 3vh;
@@ -98,5 +263,14 @@
   top:25%;
   left:70%;
   float: left;
+}
 
+.now_bar{
+    width:100%;
+    height: 8vh;
+}
+.now_pic{
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 0.5vh;
 }
