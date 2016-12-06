@@ -18,7 +18,7 @@ class Spreadtrum extends React.Component {
       show:i,
       chose:!this.state.chose
     })
-    console.log(chose);
+    console.log(this.state.chose);
   }
 
 
@@ -42,7 +42,7 @@ class Spreadtrum extends React.Component {
           lineHeight:'6vh',
           fontSize:'1.4em',
           color:'#212121',
-          backgroundColor: this.state.chose? '#c9c9c9' : '#dd1e10'
+          backgroundColor: this.state.chose? '#c9c9c9' : '#d25c52'
         }
     }
     return(
