@@ -53,11 +53,13 @@
   font-size: 12px;
 }
 .login-ww{
+  height: 20vw;
   display: flex;
   flex-direction: row;
   height: 80px;
   align-items: center;
   justify-content: space-around;
+  flex-shrink:0;
 }
 .login-ww a{
   font-size: 14px;
