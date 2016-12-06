@@ -12,12 +12,9 @@ import Baxi from './Recommend/Baxi';
 import Release from './Release/Release';
 import Spreadtrum from './Spreadtrum/Spreadtrum';
 import ClaDraw from './Spreadtrum/classify/huihua';
-<<<<<<< HEAD
 import ClaMo from './Spreadtrum/classify/shuimo';
-=======
-import Sheying from './Spreadtrum/classify/sheying';
->>>>>>> 3b5fac7f6a4f20880b758d84e80669a55d64ebd9
 
+import Sheying from './Spreadtrum/classify/sheying';
 import Cjy from './Spreadtrum/show/cjy';
 import Xiaoge from './Spreadtrum/show/xiaoge';
 
@@ -34,15 +31,10 @@ class Routers extends React.Component {
         <Route path="/denglu" component={Login}/>
         <Route path="/zhuce" component={Zhuce} />
         <Route path="/login"  component={App} >
-          <IndexRoute   component={Spreadtrum} />
-<<<<<<< HEAD
-            <Route path="/huihua" component={ClaDraw} />
-            <Route path="/shuimo" component={ClaMo} />
-
-=======
+          <IndexRoute  component={Spreadtrum} />    
+          <Route path="/shuimo" component={ClaMo} />
            <Route path="/huihua" component={ClaDraw} />
            <Route path="/sheying" component={Sheying} />
->>>>>>> 3b5fac7f6a4f20880b758d84e80669a55d64ebd9
            <Route path="/cjy" component={Cjy} />
            <Route path="/xiaoge" component={Xiaoge} />
           <Route path="/recommend" component={Recommend} />

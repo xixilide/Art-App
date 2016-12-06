@@ -10,6 +10,30 @@ import zx from '../images/littlepic/8.png'
 import zxh from '../images/littlepic/9.png'
 
 class Footer extends React.Component {
+  handleClick1(){
+    this.refs.zhanxun.src=zxh;
+    this.refs.tuijian.src=tj;
+    this.refs.geren.src=gr;
+    this.refs.fabu.src=fb;
+  }
+  handleClick2(){
+    this.refs.zhanxun.src=zx;
+    this.refs.tuijian.src=tjh;
+    this.refs.geren.src=gr;
+    this.refs.fabu.src=fb;
+  }
+  handleClick3(){
+    this.refs.zhanxun.src=zx;
+    this.refs.tuijian.src=tj;
+    this.refs.geren.src=gr;
+    this.refs.fabu.src=fbh;
+  }
+  handleClick4(){
+    this.refs.zhanxun.src=zx;
+    this.refs.tuijian.src=tj;
+    this.refs.geren.src=grh;
+    this.refs.fabu.src=fb;
+  }
   render () {
     let styles = {
       img:{
@@ -21,13 +45,13 @@ class Footer extends React.Component {
   return(
 
     <div className="nav-footer">
-        <Link to="/login" onlyActiveOnIndex={true} ><img src={zx} alt="" style={styles.img}/></Link>
-        <Link to="/recommend" >
-          <img src={tj} style={styles.img} className="huan"/>
+        <Link to="/login" onlyActiveOnIndex={true} onClick={this.handleClick1.bind(this)}><img ref='zhanxun' src={zx} alt="" style={styles.img}/></Link>
+        <Link to="/recommend" onClick={this.handleClick2.bind(this)}>
+          <img src={tj} style={styles.img} className="huan" ref='tuijian'/>
 
           </Link>
-        <Link to="/release"> <img src={fb} style={styles.img}/></Link>
-        <Link to="/person"> <img src={gr} style={styles.img}/></Link>
+        <Link to="/release" onClick={this.handleClick3.bind(this)}> <img ref='fabu' src={fb} style={styles.img}/></Link>
+        <Link to="/person" onClick={this.handleClick4.bind(this)}> <img ref='geren' src={gr} style={styles.img}/></Link>
     </div>
 
   )
