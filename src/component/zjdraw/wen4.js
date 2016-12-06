@@ -8,16 +8,30 @@ import hearth from '../../images/littlepic/22.png'
 import zhuanfh from '../../images/littlepic/23.png'
 
 class Wen4 extends React.Component {
+  constructor(){
+    super();
+    this.state={
+      manyShow:true,
+      manyShow1:true
+    }
+  }
+  handleClick(){
+    this.setState({
+      manyShow:!this.state.manyShow
+    })
+  }
   render () {
+let like = this.state.manyShow ? <span className="glyphicon glyphicon-heart-empty" ></span> :
+    <span className="glyphicon glyphicon-heart" style={{color:'red'}}></span>
    return(
        <div className="recdsecond4">
-          <p className="rect">格子｜barbara dziadosz</p>
+          <p className="rectf">格子｜barbara dziadosz</p>
           <div className="recdbom">
             <a><img src={zhuanf} className="recdzf" /></a>
             <ul className="recdul">
-              <li><a><img src={heart} className="recdul1"/>821</a></li>
-              <li><a><img src={liulan} className="recdul1"/>153</a></li>
-              <li><a><img src={plun} className="recdul1"/>56</a></li>
+              <li onClick={this.handleClick.bind(this)}>{like}821</li>
+              <li><img src={liulan} className="recdul1"/>1.3k</li>
+              <li><img src={plun} className="recdul1"/>56</li>
             </ul>
           </div>
         </div>

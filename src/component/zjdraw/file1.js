@@ -8,9 +8,23 @@ import hearth from '../../images/littlepic/22.png'
 import zhuanfh from '../../images/littlepic/23.png'
 
 class File1 extends React.Component {
+  constructor(){
+    super();
+    this.state={
+      manyShow:true,
+      manyShow1:true
+    }
+  }
+  handleClick(){
+    this.setState({
+      manyShow:!this.state.manyShow
+    })
+  }
   render () {
-   return(
 
+let like = this.state.manyShow ? <span className="glyphicon glyphicon-heart-empty" ></span> :
+    <span className="glyphicon glyphicon-heart" style={{color:'red'}}></span>
+ return(
        <div className="recdfirst1">
           <p className="recp">剩余80天</p>
           <p className="rect">对话列奥纳多达芬奇</p>
@@ -20,9 +34,9 @@ class File1 extends React.Component {
           <div className="recdbom">
             <a><img src={zhuanf} className="recdzf" /></a>
             <ul className="recdul">
-              <li><a><img src={heart} className="recdul1"/>821</a></li>
-              <li><a><img src={liulan} className="recdul1"/>1.3k</a></li>
-              <li><a><img src={plun} className="recdul1"/>56</a></li>
+              <li onClick={this.handleClick.bind(this)}>{like}821</li>
+              <li><img src={liulan} className="recdul1"/>1.3k</li>
+              <li><img src={plun} className="recdul1"/>56</li>
             </ul>
           </div>
         </div>

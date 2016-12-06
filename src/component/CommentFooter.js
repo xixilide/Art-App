@@ -11,8 +11,6 @@ class CommentFooter extends React.Component {
       manyShow2:true,
       manyShow3:true,
       manyShow4:true
-
-
     }
   }
   handleClick(){
