@@ -108,30 +108,6 @@
 .midnav{
   height: 30vh;
 }
-.nav-footer{
-  flex-shrink:0;
-  height: 12vh;
-  width: 100vw;
-  height: 10vh;
-  background-color: #000;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  justify-content: space-around;
-  align-items: center;
-  color:#fff
-}
-.nav-footer a{
-  color:#424242;
-  font-size: 1.4em;
-  text-decoration: none;
-  text-align: center;
-  border-right: 1px solid rgba(0, 0, 0, 0.5);;
-  flex-grow: 1;
-}
-.nav-footer a:last-children{
-  border:none;
-}
 .person-wrap{
   display: flex;
   flex-direction: column;
@@ -143,7 +119,6 @@
 /*footer*/
 .nav-footer{
   flex-shrink:0;
-  height: 14vh;
   width: 100vw;
   background-color: #000;
   display: flex;
