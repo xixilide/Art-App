@@ -30,7 +30,7 @@ componentDidMount(){
             <div className="swiper-slide lide" ><Link to="/shuimo"><img　src= {Img2} style={styles.img}/></Link></div>
             <div className="swiper-slide lide" ><Link to="/huihua"><img　src= {Img1} style={styles.img}/></Link></div>
             <div className="swiper-slide lide" ><Link to=""><img　src= {Img3} style={styles.img}/></Link></div>
-            <div className="swiper-slide lide" ><Link to=""><img　src= {Img4} style={styles.img}/></Link></div>
+            <div className="swiper-slide lide" ><Link to="/sheying"><img　src= {Img4} style={styles.img}/></Link></div>
             <div className="swiper-slide lide" ><Link to=""><img　src= {Img5} style={styles.img}/></Link></div>
             <div className="swiper-slide lide" ><Link to=""><img　src= {Img6} style={styles.img}/></Link></div>
         </div>
