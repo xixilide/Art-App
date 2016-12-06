@@ -12,8 +12,14 @@ import Baxi from './Recommend/Baxi';
 import Release from './Release/Release';
 import Spreadtrum from './Spreadtrum/Spreadtrum';
 import ClaDraw from './Spreadtrum/classify/huihua';
+
+import Diaosu from './Spreadtrum/classify/diaosu';
+
+
 import ClaMo from './Spreadtrum/classify/shuimo';
 import Sheying from './Spreadtrum/classify/sheying';
+import Design from './Spreadtrum/classify/Design';
+import zhuangzhi from './Spreadtrum/classify/zhuangzhi';
 import Cjy from './Spreadtrum/show/cjy';
 import Xiaoge from './Spreadtrum/show/xiaoge';
 
@@ -30,10 +36,27 @@ class Routers extends React.Component {
         <Route path="/denglu" component={Login}/>
         <Route path="/zhuce" component={Zhuce} />
         <Route path="/login"  component={App} >
+<<<<<<< HEAD
           <IndexRoute  component={Spreadtrum} />
           <Route path="/shuimo" component={ClaMo} />
            <Route path="/huihua" component={ClaDraw} />
            <Route path="/sheying" component={Sheying} />
+=======
+          <IndexRoute   component={Spreadtrum} />
+
+           <Route path="/huihua" component={ClaDraw} />
+           <Route path="/diaosu" component={Diaosu} />
+
+
+
+            <Route path="/huihua" component={ClaDraw} />
+            <Route path="/shuimo" component={ClaMo} />
+            <Route path="/sheying" component={Sheying} />
+            <Route path="/design" component={Design} />
+            <Route path="/zhuangzhi" component={zhuangzhi} />
+
+
+>>>>>>> fc8595aba27779bc1ffe504a06e4c7a604b8502f
            <Route path="/cjy" component={Cjy} />
            <Route path="/xiaoge" component={Xiaoge} />
           <Route path="/recommend" component={Recommend} />

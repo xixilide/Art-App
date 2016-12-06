@@ -45,6 +45,7 @@ class Footer extends React.Component {
   return(
 
     <div className="nav-footer">
+<<<<<<< HEAD
         <Link to="/login" onlyActiveOnIndex={true} onClick={this.handleClick1.bind(this)}><img ref='zhanxun' src={zx} alt="" style={styles.img}/></Link>
         <Link to="/recommend" onClick={this.handleClick2.bind(this)}>
           <img src={tj} style={styles.img} className="huan" ref='tuijian'/>
@@ -52,6 +53,13 @@ class Footer extends React.Component {
           </Link>
         <Link to="/release" onClick={this.handleClick3.bind(this)}> <img ref='fabu' src={fb} style={styles.img}/></Link>
         <Link to="/person" onClick={this.handleClick4.bind(this)}> <img ref='geren' src={gr} style={styles.img}/></Link>
+=======
+        <Link to="/login" onlyActiveOnIndex={true} ><img src={zx} alt="" style={styles.img}/></Link>
+        <Link to="/recommend" >
+          <img src={tj} style={styles.img} className="huan"/></Link>
+        <Link to="/release"> <img src={fb} style={styles.img}/></Link>
+        <Link to="/person"> <img src={gr} style={styles.img}/></Link>
+>>>>>>> fc8595aba27779bc1ffe504a06e4c7a604b8502f
     </div>
 
   )

@@ -30,3 +30,21 @@
   height: 12vh;
   background-image: url(./images/home/draw/5bg.jpg);
 }
+.kong{
+  height: 12vh;
+  background-image: url(./images/home/draw/5bg.jpg);
+}
+.k1{
+  height: 12vh;
+  background-image: url(./images/home/water/sheying.png);
+}
+.k2{
+  height: 12vh;
+  background-image: url(./images/home/water/4bg.jpg);
+  background-size: cover;
+}
+.k5{
+  height: 12vh;
+  background-image: url(./images/home/diaosu/1.gif);
+  background-size: cover;
+}
