@@ -246,14 +246,20 @@
 .recdfirst1{
   background-image: url(./images/recommend/tuijian/1.jpg);
   margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
 }
 .recdfirst2{
   background-image: url(./images/recommend/tuijian/2.jpg);
   margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
 }
 .recdfirst3{
   background-image: url(./images/recommend/tuijian/3.jpg);
   margin-bottom: 2vh;
+  background-size: 100% 100%;
+  position: relative;
 }
 .recp{
   width:20vw;
