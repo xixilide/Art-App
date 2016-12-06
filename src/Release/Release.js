@@ -4,7 +4,7 @@ import Img2 from '../images/littlepic/334.png';
 import Img3 from '../images/littlepic/335.png';
 import Img4 from '../images/littlepic/336.png';
 import Img5 from '../images/littlepic/337.png';
-
+import Design from '../Spreadtrum/classify/Design'
 class Release extends React.Component {
   render () {
   return(

@@ -22,7 +22,6 @@ class Zengfan extends React.Component {
       <span style={{position:'absolute',top:'10px',left:'14px',color:'#ccc',fontSize:'1vw',marginTop:'18vh'}}>展览时间：2016.9.19-11.19</span>
       <span style={{position:'absolute',top:'10px',left:'14px',color:'#ccc',fontSize:'1vw',marginTop:'20vh'}}>展览地点：尤伦斯艺术中心</span>
 
-
         <img src={Img1} />
 
 
